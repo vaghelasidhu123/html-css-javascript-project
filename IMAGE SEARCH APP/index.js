@@ -21,10 +21,13 @@ const getData = async (searchValue,pageNo) =>{
         <h1>Please Search</h1>
         `
     }
+    if(search.value != ""){
+        showData.innerHTML = "";
+    }
     else{
         document.querySelector(".loadMore").style.display="block";
     }
-    
+     
 
     jsonData.results.forEach(function(data){
         console.log(data);
