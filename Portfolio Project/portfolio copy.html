@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>PortFolio</h1>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </nav>
+
+        <!-- Main Section -->
+        <div class="main"id="main">
+            <div class="mainText">
+                <h3>Hello I am,</h3>
+                <h2>Vaghela Siddhrajsinh R.</h2>
+                <p>I am a motivated and eager Full Stack Web Developer with knowledge of HTML, CSS, JavaScript, and Java. I have a strong interest in building responsive and user-friendly websites and web applications.</p>
+                <button onclick="downlodeBtn()">Download CV</button>
+                <button onclick="viewResume()">View CV</button>
+            </div>
+            <img src="main.png" alt="">
+        </div>
+
+        <!-- About Section -->
+        <div id="about">
+            <div class="head">
+                <h1>About Me</h1>
+            </div>
+            <div class="about">
+                <div class="aboutText">
+                    <h1>Vaghela Siddhrajsinh R.</h1>
+                    <p>Fullstack Developer</p>
+                    <p>I am a motivated and eager Full Stack Web Developer with knowledge of HTML, CSS, JavaScript, and Java. I have a strong interest in building responsive and user-friendly websites and web applications.</p>
+                </div>
+                <img src="main.png" alt="">
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+<!-- Skills Section -->
+<!-- Skills Section -->
+<div id="skills">
+    <div class="head">
+        <h1>My Skills</h1>
+    </div>
+    <div class="skills">
+        <ul>
+            <li>
+                <img src="html.png" alt="HTML" class="skill-icon">
+                <span>HTML</span>
+            </li>
+            <li>
+                <img src="css.png" alt="CSS" class="skill-icon">
+                <span>CSS</span>
+            </li>
+            <li>
+                <img src="javascript.png" alt="JavaScript" class="skill-icon">
+                <span>JavaScript</span>
+            </li>
+            <li>
+                <img src="java.png" alt="Java" class="skill-icon">
+                <span>Java</span>
+            </li>
+            <li>
+                <img src="reactjs.png" alt="React" class="skill-icon">
+                <span>React</span>
+            </li>
+            <li>
+                <img src="mysql.png" alt="MySQL" class="skill-icon">
+                <span>MySQL</span>
+            </li>
+            <li>
+                <img src="github.png" alt="Git & GitHub" class="skill-icon">
+                <span>Git & GitHub</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+        <!-- Projects Section -->
+        <div id="projects">
+            <div class="head">
+                <h1>My Projects</h1>
+            </div>
+            <div class="projects">
+                <div class="projectCard">
+                    <h2>Project 1</h2>
+                    <p>A simple portfolio website built with HTML, CSS, and JavaScript.</p>
+                    <a href="https://github.com/vaghelasidhu123/html-css-javascript-project">View Project</a>
+                </div>
+                <div class="projectCard">
+                    <h2>Project 2</h2>
+                    <p>A to-do app built with React and Node.js, showcasing CRUD operations.</p>
+                    <a href="https://github.com/vaghelasidhu123/html-css-javascript-project">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact">
+            <div class="head">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="contact">
+                <input type="text" placeholder="Enter Your Name" id="name">
+                <input type="text" placeholder="Enter Your Email" id="email">
+                <textarea name="" id="msg" cols="40" rows="6" value="" placeholder="Enter Message..."></textarea>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <div class="icons">
+                <a href="https://twitter.com/yourhandle"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/yourhandle"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/yourgithub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/yourlinkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="text">
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Disclaimer</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
