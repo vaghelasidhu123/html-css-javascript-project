@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!---Main Section-->
+        <div class="main">
+            <div class="mainText">
+                <h3>Hello I am,</h3>
+                <h2>VAGHELA SIDDHRAJSINH R.</h2>
+                <p>I am a motivated and eager Full Stack Web Developer<br> with knowledge of HTML, CSS, JavaScript, and Java.<br> I have a strong interest in building responsive and <br>user-friendly websites and web applications.</p>
+                <button onclick="downloadBtn()">Download CV</button>
+                <button onclick="viewResume()">View CV</button>
+            </div>
+            <img src="SiddhrajImage.jpeg" alt="">
+        </div>
+
+        <!--- About Section --->
+        <div id="about">
+            <div class="head">
+                About Me
+            </div>
+            <div class="about">
+                <div class="aboutText">
+                    <h1>VAGHELA SIDDHRAJSINH R.</h1>
+                    <p>Full Stack Developer</p>
+                    <p>I am a motivated and eager Full Stack Web Developer with knowledge of HTML, CSS, JavaScript, and Java. I have a strong interest in building responsive and user-friendly websites and web applications.</p>
+                </div>
+                <img src="SiddhrajImage.jpeg" alt="">
+            </div>
+        </div>
+
+    <!--- Skills Section --->  
+     <div id="skills">
+        <div class="head">
+            <h1>My Skills</h1>
+        </div>
+        <div class="skills">
+            <ul>
+                <li>
+                    
+                    <img src="html.png" alt="HTML"class="skill-icon">
+                    <span>HTML</span>
+                </li>
+                <li>
+                    <img src="css.png" alt="CSS"class="skill-icon">
+                    <span>CSS</span>
+                </li>
+                <li>
+                    <img src="javascript.png" alt="JavaScript"class="skill-icon">
+                    <span>JavaScript</span>
+                </li>
+                <li>
+                    <img src="java.png" alt="Java"class="skill-icon">
+                    <span>Java</span>
+                </li>
+                <li>
+                    <img src="git.png" alt="git"class="skill-icon">
+                    <span>Git</span>
+                </li>
+                <Li>
+                    <img src="github.png" alt="github"class="skill-icon">
+                    <span>GitHub</span>
+                </Li>
+            </ul>
+        </div>
+     </div>  
+
+
+    <!--- Projects Section --->
+    <div id="projects">
+        <div class="head">
+            <h1>My Projects</h1>
+        </div>
+        <div class="projects">
+            <div class="projectCard">
+                <h2>Image Search App</h2>
+                <p>Developed an Image Search App using APIs to allow users to easily search and view images from the web. Focused on building a clean and user-friendly interface with fast search results.</p>
+                <a href="https://github.com/vaghelasidhu123/html-css-javascript-project/tree/main/ImageProject">View Project</a>
+            </div>
+            <!-- <div class="projectcard">
+                <h2></h2>
+                <P></P>
+                <a href="">View Project</a>
+            </div> -->
+            
+        </div>
+    </div>
+
+    <!--- Contact Section --->
+    <div id="contact">
+        <div class="head">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="contact">
+            <input type="text"placeholder="Enter Your Name"id="name">
+            <input type="text"placeholder="Enter Your Email"id="email">
+            <textarea name="" id="msg"cols="40"rows="6"value=""placeholder="Enter Message....."></textarea>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+
+    <!--- Footer Section --->
+    <div class="footer">
+        <div class="icons">
+            <a href="https://twitter.com/yourhandle"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yourhandle"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/yourgithub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yourlinkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="text">
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Disclaimer</p>
+        </div>
+    </div>
+    </div>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
